@@ -1,0 +1,23 @@
+{
+  "name": "service-worker",
+  "version": "1.0.0",
+  "description": "使用 service worker + indexedDB + cache 完成页面请求缓存与缓存版本控制",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "anywhere -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feiyuan1/service-worker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feiyuan1/service-worker/issues"
+  },
+  "homepage": "https://github.com/feiyuan1/service-worker#readme",
+  "devDependencies": {
+    "anywhere": "^1.6.0"
+  }
+}

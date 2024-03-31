@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>02 esmodule 学习</title>
+  </head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 初始化 indexedDB -->
+  <!-- 这里有个时序问题：当数据库没有初始化完成的时候，下面的脚本也会被执行，由于首次加载页面时，sw 脚本还未生效，所以这个问题暂时没有暴露出来 -->
+  <script src="../scripts/initDB.js" type="module"></script>
+
+  <!-- 引入 service Worker 的脚本 -->
+  <script src="./index.js" type="module"></script>
+  
+  <body>
+    <img src="../assets/loginCut.png" alt=""/>
+  </body>
+</html>
